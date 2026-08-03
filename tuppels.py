@@ -1,0 +1,5 @@
+v1=()
+v2=(46.6,5,9,['years old','weight kg','grade'])
+v3=("grade",5,"weight kg",45.6,9,"years old",9,)
+print(v2[3][1])
+print(type(v1))
