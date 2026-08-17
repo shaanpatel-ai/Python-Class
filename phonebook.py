@@ -55,7 +55,7 @@ def add_contact(pb):
             dip.append(str(input("Enter e-mail adress: ")))
         if i == 3:
             dip.append(str(input("Enter date of birth: ")))
-        if i == 0:
+        if i == 4:
             dip.append(str(input("Enter category: ")))
     pb.append(dip)
     return pb
@@ -132,7 +132,7 @@ print("*************************************************************************
 ch = 1
 pb = inital_phonebook()
 while ch in (1,2,3,4,5):
-    ch == menu()
+    ch = menu()
     if ch == 1:
         pb = add_contact(pb)
     elif ch == 2:
